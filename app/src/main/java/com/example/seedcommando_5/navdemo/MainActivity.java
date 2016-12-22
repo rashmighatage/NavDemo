@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity
     EditText ed;
 
     @Override
-
+//added to git hub
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -108,6 +108,7 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
 
     public void find(View v) {
         String data = ed.getText().toString();
